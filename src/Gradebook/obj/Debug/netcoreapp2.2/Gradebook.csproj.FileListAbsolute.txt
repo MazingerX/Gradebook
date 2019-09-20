@@ -1,0 +1,11 @@
+/Users/luishinostroza/gradebook/src/Gradebook/bin/Debug/netcoreapp2.2/Gradebook.deps.json
+/Users/luishinostroza/gradebook/src/Gradebook/bin/Debug/netcoreapp2.2/Gradebook.runtimeconfig.json
+/Users/luishinostroza/gradebook/src/Gradebook/bin/Debug/netcoreapp2.2/Gradebook.runtimeconfig.dev.json
+/Users/luishinostroza/gradebook/src/Gradebook/bin/Debug/netcoreapp2.2/Gradebook.dll
+/Users/luishinostroza/gradebook/src/Gradebook/bin/Debug/netcoreapp2.2/Gradebook.pdb
+/Users/luishinostroza/gradebook/src/Gradebook/obj/Debug/netcoreapp2.2/Gradebook.csprojAssemblyReference.cache
+/Users/luishinostroza/gradebook/src/Gradebook/obj/Debug/netcoreapp2.2/Gradebook.csproj.CoreCompileInputs.cache
+/Users/luishinostroza/gradebook/src/Gradebook/obj/Debug/netcoreapp2.2/Gradebook.AssemblyInfoInputs.cache
+/Users/luishinostroza/gradebook/src/Gradebook/obj/Debug/netcoreapp2.2/Gradebook.AssemblyInfo.cs
+/Users/luishinostroza/gradebook/src/Gradebook/obj/Debug/netcoreapp2.2/Gradebook.dll
+/Users/luishinostroza/gradebook/src/Gradebook/obj/Debug/netcoreapp2.2/Gradebook.pdb
