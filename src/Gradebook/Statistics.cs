@@ -1,4 +1,4 @@
-namespace GradeBook
+namespace Gradebook
 {
     public class Statistics
     {

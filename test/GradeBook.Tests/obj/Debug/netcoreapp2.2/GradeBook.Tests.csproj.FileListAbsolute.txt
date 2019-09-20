@@ -12,3 +12,6 @@
 /Users/luishinostroza/gradebook/test/GradeBook.Tests/obj/Debug/netcoreapp2.2/GradeBook.Tests.AssemblyInfo.cs
 /Users/luishinostroza/gradebook/test/GradeBook.Tests/obj/Debug/netcoreapp2.2/GradeBook.Tests.dll
 /Users/luishinostroza/gradebook/test/GradeBook.Tests/obj/Debug/netcoreapp2.2/GradeBook.Tests.pdb
+/Users/luishinostroza/gradebook/test/GradeBook.Tests/bin/Debug/netcoreapp2.2/GradeBook.dll
+/Users/luishinostroza/gradebook/test/GradeBook.Tests/bin/Debug/netcoreapp2.2/GradeBook.pdb
+/Users/luishinostroza/gradebook/test/GradeBook.Tests/obj/Debug/netcoreapp2.2/GradeBook.Tests.csproj.CopyComplete

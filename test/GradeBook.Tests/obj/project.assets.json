@@ -5860,8 +5860,8 @@
     },
     "GradeBook/1.0.0": {
       "type": "project",
-      "path": "../../src/GradeBook/GradeBook.csproj",
-      "msbuildProject": "../../src/GradeBook/GradeBook.csproj"
+      "path": "../../src/Gradebook/GradeBook.csproj",
+      "msbuildProject": "../../src/Gradebook/GradeBook.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -5901,8 +5901,8 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "/Users/luishinostroza/gradebook/src/GradeBook/GradeBook.csproj": {
-              "projectPath": "/Users/luishinostroza/gradebook/src/GradeBook/GradeBook.csproj"
+            "/Users/luishinostroza/gradebook/src/Gradebook/GradeBook.csproj": {
+              "projectPath": "/Users/luishinostroza/gradebook/src/Gradebook/GradeBook.csproj"
             }
           }
         }
