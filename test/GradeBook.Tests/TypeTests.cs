@@ -1,10 +1,28 @@
 using System;
 using Xunit;
 
-namespace Gradebook
+namespace Gradebook.Tests
 {
+
+    public delegate string WriteLogDelegate(string logmessage);
+
     public class TypeTests
     {
+        [Fact]
+        public void WriteLogDelegateCanPointToMethod()
+        {
+            WriteLogDelegate log;
+
+            log = ReturnMessage;
+
+            var result = log("Hello!");
+            Assert.Equal("Hello!", result);
+        }
+
+        string ReturnMessage(string message)
+        {
+            return message;
+        }
 
         [Fact]
         public void Test1()
@@ -12,7 +30,7 @@ namespace Gradebook
             var x = GetInt();
             SetInt(ref x);
 
-            Assert.Equal(42, x)
+            Assert.Equal(42, x);
         }
 
         private void SetInt(ref int z)
@@ -43,13 +61,13 @@ namespace Gradebook
 
 
         [Fact]
-        public void CSharpIsPassValue()
+        public void CSharpIsPassByValue()
         {
             var book1 = GetBook("Book 1");
             GetBookSetName(book1, "New Name");
 
 
-            Assert.Equal("New Name", book1.Name);  
+            Assert.Equal("Book 1", book1.Name);  
         }
 
         public void GetBookSetName(Book book, string name)
@@ -66,7 +84,7 @@ namespace Gradebook
             SetName(book1, "New Name");
 
 
-            Assert.Equal("Book 1", book1.Name);  
+            Assert.Equal("New Name", book1.Name);  
         }
 
         public void SetName(Book book, string name)
@@ -75,7 +93,7 @@ namespace Gradebook
         }
 
         [Fact]
-        public void StringBehaveLikeValueType()
+        public void StringBehaveLikeValueTypes()
         {
             string name = "Luis";
             var upper = MakeUpperCase(name);
@@ -98,7 +116,19 @@ namespace Gradebook
 
             Assert.Equal("Book 1", book1.Name);
             Assert.Equal("Book 2", book2.Name);
-            Assert.NotEqual(book1, book2);
+            Assert.NotSame(book1, book2);
+           
+        }
+
+        [Fact]
+        public void TwoVarsCanReferenceSameObject()
+        {
+            var book1 = GetBook("Book 1");
+            var book2 = book1;
+
+
+            Assert.Same(book1, book2);
+            Assert.True(Object.ReferenceEquals(book1, book2));
            
         }
 
