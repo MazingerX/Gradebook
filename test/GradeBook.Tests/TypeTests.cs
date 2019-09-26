@@ -54,9 +54,9 @@ namespace Gradebook.Tests
             Assert.Equal("New Name", book1.Name);  
         }
 
-        public void GetBookSetName(out Book book, string name)
+        public void GetBookSetName(out DiskBook book, string name)
         {
-            book = new Book(name);
+            book = new DiskBook(name);
         }
 
 
@@ -70,9 +70,9 @@ namespace Gradebook.Tests
             Assert.Equal("Book 1", book1.Name);  
         }
 
-        public void GetBookSetName(Book book, string name)
+        public void GetBookSetName(DiskBook book, string name)
         {
-            book = new Book(name);
+            book = new DiskBook(name);
         }
 
 
@@ -87,7 +87,7 @@ namespace Gradebook.Tests
             Assert.Equal("New Name", book1.Name);  
         }
 
-        public void SetName(Book book, string name)
+        public void SetName(DiskBook book, string name)
         {
             book.Name = name;
         }
@@ -132,9 +132,9 @@ namespace Gradebook.Tests
            
         }
 
-        Book GetBook(string name)
+        DiskBook GetBook(string name)
         {
-            return new Book(name);
+            return new DiskBook(name);
 
         }
     }
